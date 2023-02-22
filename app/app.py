@@ -25,7 +25,7 @@ def test():
 
 
 
-
+#capture the info from html via simple user form to store and process it with post method
 @app.route('/api/testmodel', methods=['POST'])
 def process_form():
     data = request.form
